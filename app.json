@@ -1,0 +1,144 @@
+{
+  "name": "HIRU-X-MD",
+  "description": "Javascript WhatsApp bot made by hirun",
+  "logo": "https://files.catbox.moe/khqeb9.jpg",
+  "keywords": ["HIRU-X-MD"],
+  "stack": "heroku-24",
+  "env": {
+    "SESSION_ID": {
+      "description": "Put the session-id here.",
+      "required": true,
+      "value": "t611DKwB#lTtyuw0CfBhFF5A8ljpofkOONncd6ZJICqkNgYs6vws"
+    },
+    "STICKER_NAME": {
+      "description": "Type your sticker pack name.",
+      "required": false,
+      "value": "HIRU-X-MD"
+    },
+    "PREFIX": {
+      "description": "Paste your bot prefix (Note! Don't use null prefix).",
+      "required": false,
+      "value": "."
+    },
+    "MODE": {
+      "description": "Select your bot work type: public-private-inbox-group.",
+      "required": false,
+      "value": "public"
+    },
+    "ALWAYS_ONLINE": {
+      "description": "Make it true if you want bot always online.",
+      "required": false,
+      "value": "false"
+    },
+    "AUTO_VOICE": {
+      "description": "Make it true if you want automatic voice reply.",
+      "required": false,
+      "value": "false"
+    },
+    "AUTO_REPLY": {
+      "description": "Make it true if you want automatic reply.",
+      "required": false,
+      "value": "false"
+    },
+    "AUTO_STICKER": {
+      "description": "Make it true if you want automatic sticker.",
+      "required": false,
+      "value": "false"
+    },
+    "AUTO_STATUS_SEEN": {
+      "description": "Make it true for automatic status seen.",
+      "required": true,
+      "value": "true"
+    },
+    "AUTO_STATUS_REACT": {
+      "description": "Make it true for automatic status reaction or like.",
+      "required": true,
+      "value": "true"
+    },
+    "AUTO_STATUS_REPLY": {
+      "description": "Make it true for auto reply message on status seen.",
+      "required": true,
+      "value": "false"
+    },
+    "AUTO_STATUS_MSG": {
+      "description": "Type custom message on status reply.",
+      "required": true,
+      "value": "*SEEN YOUR STATUS BY ☈☟𝗛𝗜𝗥𝗨-𝗫-𝗠𝗗 𝗩1️⃣ 🖤*"
+    },
+    "ANTI_LINK": {
+      "description": "Make it true if you want bot auto remove group link.",
+      "required": true,
+      "value": "true"
+    },
+    "ANTI_LINK_KICK": {
+      "description": "Make it true if you want bot auto remove group link and kick.",
+      "required": true,
+      "value": "false"
+    },
+    "ANTI_BAD": {
+      "description": "Make it true if you want bot auto delete bad words.",
+      "required": false,
+      "value": "false"
+    },
+    "MENTION_REPLY": {
+      "description": "Make it true if you want mention reply when someone mentions you.",
+      "required": false,
+      "value": "false"
+    },
+    "DELETE_LINKS": {
+      "description": "Remove links from group automatically without removing member.",
+      "required": false,
+      "value": "false"
+    },
+    "AUTO_RECORDING": {
+      "description": "Make it true if you want auto recording.",
+      "required": false,
+      "value": "false"
+    },
+    "AUTO_TYPING": {
+      "description": "Make it true if you want auto typing.",
+      "required": false,
+      "value": "false"
+    },
+    "AUTO_REACT": {
+      "description": "Make it true if you want react on every message.",
+      "required": false,
+      "value": "false"
+    },
+    "CUSTOM_REACT": {
+      "description": "Make it true if you want custom reactions.",
+      "required": false,
+      "value": "false"
+    },
+    "CUSTOM_REACT_EMOJIS": {
+      "description": "Put here custom react emojis.",
+      "required": false,
+      "value": "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍"
+    },
+    "ANTI_DEL_PATH": {
+      "description": "Change it to 'same' if you want to resend deleted message in same chat.",
+      "required": false,
+      "value": "log"
+    },
+    "ADMIN_EVENTS": {
+      "description": "Make it true if you want to know who promote or demote a member.",
+      "required": false,
+      "value": "false"
+    },
+    "WELCOME": {
+      "description": "Make it true if you want goodbye and welcome messages in groups.",
+      "required": false,
+      "value": "true"
+    },
+    "READ_MESSAGE": {
+      "description": "Make it true if you want bot to read all messages automatically.",
+      "required": false,
+      "value": "false"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+  ]
+}
