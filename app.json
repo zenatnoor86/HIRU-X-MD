@@ -1,7 +1,7 @@
 {
   "name": "HIRU-X-MD",
   "description": "Javascript WhatsApp bot made by hirun",
-  "logo": "https://files.catbox.moe/khqeb9.jpg",
+  "logo": "https://files.catbox.moe/4krz0w.jpg",
   "keywords": ["HIRU-X-MD"],
   "stack": "heroku-24",
   "env": {
