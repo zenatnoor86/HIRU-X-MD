@@ -4,7 +4,7 @@
   "description": "A WhatsApp Bot Created By hirun",
   "main": "hiruofc.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name HIRU-X-MD",
+    "start": "pm2 start hiruofc.js --deep-monitoring --attach --name HIRU-X-MD",
     "stop": "pm2 stop HIRU-X-MD",
     "restart": "pm2 restart HIRU-X-MD"
   },
