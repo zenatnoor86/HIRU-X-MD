@@ -6,10 +6,10 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || "lURFyABC#QHs3FFAl1N3jcZxqT4iEmftOR_1wB4pOll2CZx2SkGo",
+    SESSION_ID: process.env.SESSION_ID || "𝗛𝗜𝗥𝗨-𝗫-𝗠𝗗=McBhWQRY#wBOLiIsFITCG_2PAQkrdabojgFN3FPdFJpJKGuRAhX0",
     // add your Session Id 
 
-    AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
+    AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "false",
     // make true or false status auto seen
 
     AUTO_AI: process.env.AUTO_AI || 'false',
@@ -18,7 +18,7 @@ module.exports = {
     AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
     // make true if you want auto reply on status 
 
-    AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
+    AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false",
     // make true if you want auto react on status 
 
     ANTI_CALL: process.env.ANTI_CALL || "true",
@@ -61,7 +61,7 @@ module.exports = {
     ANTI_BAD: process.env.ANTI_BAD || "false",
     // false or true for anti bad words 
 
-    MODE: process.env.MODE || "public",
+    MODE: process.env.MODE || "private",
     // make bot public-private-inbox-group 
 
     ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
@@ -70,7 +70,7 @@ module.exports = {
     ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
     // make true for always online 
 
-    PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
+    PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
     // make false if want private mode
 
     AUTO_TYPING: process.env.AUTO_TYPING || "false",
@@ -79,7 +79,7 @@ module.exports = {
     READ_CMD: process.env.READ_CMD || "teue",
     // true if want mark commands as read 
 
-    DEV: process.env.DEV || "94773024361",
+    DEV: process.env.DEV || "923314110070",
     // replace with your whatsapp number         
 
     ANTI_VV: process.env.ANTI_VV || "true",
